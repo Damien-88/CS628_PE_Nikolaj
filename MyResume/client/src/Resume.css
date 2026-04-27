@@ -1,0 +1,126 @@
+/* Target the main resume wrapper. */
+.resume {
+    /* Use a clean sans-serif font. */
+    font-family: Arial, sans-serif;
+    /* Center the layout horizontally. */
+    margin: 0 auto;
+    /* Limit the content width. */
+    max-width: 800px;
+    /* Increase text readability. */
+    line-height: 1.6;
+    /* Set the default text color to black. */
+    color: #000000;
+    /* Add space inside the container. */
+    padding: 20px;
+    /* Apply a bright yellow background color. */
+    background-color: rgba(189, 251, 4, 1);
+    /* End the main resume wrapper styles. */
+}
+/* Target the header section. */
+.header {
+    /* Center the header content. */
+    text-align: center;
+    /* Add space below the header. */
+    margin-bottom: 30px;
+    /* End the header section styles. */
+}
+/* Target the main header title. */
+.header h1 {
+    /* Remove the default heading margin. */
+    margin: 0;
+    /* Enlarge the main title text. */
+    font-size: 2.5rem;
+    /* Use a black title color. */
+    color: #000000;
+    /* End the main header title styles. */
+}
+/* Target the header paragraph text. */
+.header p {
+    /* Set the paragraph text size. */
+    font-size: 1.4rem;
+    /* Make the paragraph text black. */
+    color: #000000;
+    /* End the header paragraph styles. */
+}
+/* Target each resume section. */
+.section {
+    /* Add spacing below each section. */
+    margin-bottom: 20px;
+    /* End the section styles. */
+}
+/* Target each section heading. */
+.section h2 {
+    /* Increase the section heading size. */
+    font-size: 1.5rem;
+    /* Use a black heading color. */
+    color: #000000;
+    /* Add space below the heading. */
+    margin-bottom: 10px;
+    /* End the section heading styles. */
+}
+/* Target education item headings. */
+.education h3,
+/* Target experience item headings. */
+.experience h3,
+/* Target project item headings. */
+.projects h3 {
+    /* Remove the default heading margin. */
+    margin: 0;
+    /* Set a medium heading size. */
+    font-size: 1.2rem;
+    /* Use a black accent color. */
+    color: #000000;
+    /* End the shared item heading styles. */
+}
+/* Target education paragraph text. */
+.education p,
+/* Target project paragraph text. */
+.projects p {
+    /* Tighten paragraph spacing vertically. */
+    margin: 5px 0;
+    /* End the shared paragraph styles. */
+}
+/* Target the skills list. */
+.skills ul {
+    /* Remove default list bullets. */
+    list-style-type: none;
+    /* Indent the skills list slightly. */
+    margin-left: 20px;
+    /* End the skills list styles. */
+}
+/* Target each skills list item. */
+.skills li {
+    /* Add space below each list item. */
+    margin-bottom: 5px;
+    /* Ensure no list bullets appear. */
+    list-style-type: none;
+    /* End the skills list item styles. */
+}
+/* Target the experience list. */
+.experience ul {
+    /* Remove default list bullets. */
+    list-style-type: none;
+    /* Indent the experience list slightly. */
+    margin-left: 20px;
+    /* End the experience list styles. */
+}
+/* Target each experience list item. */
+.experience li {
+    /* Add space below each list item. */
+    margin-bottom: 5px;
+    /* End the experience list item styles. */
+}
+/* Target project links. */
+.projects a {
+    /* Use a blue link color. */
+    color: #007acc;
+    /* Remove the default underline. */
+    text-decoration: none;
+    /* End the project link styles. */
+}
+/* Target project links on hover. */
+.projects a:hover {
+    /* Underline links when hovered. */
+    text-decoration: underline;
+    /* End the project hover styles. */
+}
