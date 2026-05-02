@@ -1,0 +1,36 @@
+/* Outer page wrapper: centers all child content horizontally */
+.container {
+    text-align: center;
+    padding: 20px; /* Additional left padding for better spacing */
+}
+
+/* Genre filter dropdown */
+select {
+    padding: 8px; /* Make the dropdown easier to interact with */
+    margin-bottom: 20px; /* Separate the dropdown from the movie list below */
+    width: 150px; /* Set a fixed width for consistency */
+}
+
+/* Flex container that stacks movie cards vertically and centers them */
+.listMovies {
+    display: flex;
+    flex-direction: column; /* Stack cards top-to-bottom */
+    gap: 15px; /* Uniform spacing between each card */
+    align-items: center; /* Horizontally center each card in the column */
+}
+
+/* Individual movie card */
+.movieCard {
+    border: 1px solid #ccc; /* Subtle grey border to visually separate cards */
+    padding: 15px; /* Inner spacing so text doesn't hug the edges */
+    width: 600px; /* Fixed width keeps all cards the same size */
+    cursor: pointer; /* Show pointer cursor to hint the card is clickable */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    transition: transform 0.2s; /* Smooth animation for the hover scale effect */
+}
+
+/* Hover state: slightly enlarge the card and change the background */
+.movieCard:hover {
+    transform: scale(1.05); /* Scale up 5% to give a lift effect */
+    background-color: #f9f9f9; /* Light background highlight on hover */
+}
