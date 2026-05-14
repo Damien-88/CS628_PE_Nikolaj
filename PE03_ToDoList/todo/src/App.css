@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
+.container { /* Styles the main wrapper that holds the todo app content. */
+  max-width: 400px; /* Limits the app width so it stays compact on the page. */
+  margin: 40px auto; /* Centers the app horizontally and adds vertical spacing. */
+  font-family: Arial, sans-serif; /* Uses Arial as the font for the app text. */
+  padding: 20px; /* Adds inner spacing around the content. */
+  border: 1px solid #ddd; /* Draws a light border around the app container. */
+  border-radius: 10px; /* Rounds the corners of the app container. */
+  background-color: #f9f9f9; /* Gives the container a light gray background. */
+} /* Ends the container styles. */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.title { /* Styles the heading at the top of the app. */
+  text-align: center; /* Centers the title text horizontally. */
+  margin-bottom: 15px; /* Adds space below the title. */
+} /* Ends the title styles. */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.inputRow { /* Styles the row that contains the input and add button. */
+  display: flex; /* Places the input and button side by side. */
+  gap: 10px; /* Adds space between the input and button. */
+  margin-bottom: 15px; /* Adds space below the input row. */
+} /* Ends the input row styles. */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.input { /* Styles the text input used for entering tasks. */
+  flex: 1; /* Lets the input grow to fill available row space. */
+  padding: 8px; /* Adds inner spacing inside the input field. */
+  border-radius: 5px; /* Rounds the corners of the input box. */
+  border: 1px solid #ccc; /* Adds a light gray border around the input. */
+} /* Ends the input styles. */
 
-.App-link {
-  color: #61dafb;
-}
+.addButton { /* Styles the button used to add a new task. */
+  padding: 8px 12px; /* Adds vertical and horizontal space inside the add button. */
+  background-color: #228b22; /* Colors the add button green. */
+  color: white; /* Sets the add button text color to white. */
+  border: none; /* Removes the default button border. */
+  border-radius: 5px; /* Rounds the corners of the add button. */
+  cursor: pointer; /* Shows a pointer cursor when hovering over the add button. */
+} /* Ends the add button styles. */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.list { /* Styles the unordered list that holds all todo items. */
+  list-style: none; /* Removes the default bullet points from the list. */
+  padding: 0; /* Removes the default left padding from the list. */
+} /* Ends the list styles. */
+
+.listItem { /* Styles each individual todo row. */
+  display: flex; /* Places the todo text and delete button on one line. */
+  justify-content: space-between; /* Pushes the text and button to opposite sides. */
+  padding: 8px; /* Adds inner spacing inside each todo row. */
+  margin-bottom: 8px; /* Adds space below each todo row. */
+  background-color: white; /* Gives each todo row a white background. */
+  border: 1px solid #ddd; /* Adds a light border around each todo row. */
+  border-radius: 5px; /* Rounds the corners of each todo row. */
+} /* Ends the list item styles. */
+
+.deleteButton { /* Styles the button used to delete a task. */
+  background-color: #990000; /* Colors the delete button red. */
+  color: white; /* Sets the delete button text color to white. */
+  border: none; /* Removes the default button border. */
+  border-radius: 5px; /* Rounds the corners of the delete button. */
+  padding: 5px 8px; /* Adds inner spacing inside the delete button. */
+  cursor: pointer; /* Shows a pointer cursor when hovering over the delete button. */
+} /* Ends the delete button styles. */
