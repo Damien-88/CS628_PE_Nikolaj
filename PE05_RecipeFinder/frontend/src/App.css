@@ -1,0 +1,115 @@
+/* GENERAL PAGE STYLE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* HEADER */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* CARD STYLE (recipes) */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+/* BUTTONS */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* DELETE BUTTON (red) */
+button.delete {
+  background-color: #e74c3c;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* FORM */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* NAV LINK */
+.nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ACTION BUTTON GROUP */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* VIEW SECTION SEPARATION */
+.view-section {
+  margin-bottom: 20px;
+}
+
+/* EDIT SECTION HEADER */
+h3 {
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+/* SMALL UX IMPROVEMENT */
+button {
+  transition: 0.2s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.97);
+}
